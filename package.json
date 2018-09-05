@@ -1,5 +1,5 @@
 {
-  "name": "ShootGame",
+  "name": "shoot-game",
   "version": "0.0.1",
   "author": "Ionic Framework",
   "homepage": "http://ionicframework.com/",
@@ -9,6 +9,9 @@
     "clean": "ionic-app-scripts clean",
     "build": "ionic-app-scripts build",
     "lint": "ionic-app-scripts lint"
+  },
+  "config": {
+    "ionic_webpack": "./webpack.config.js"
   },
   "dependencies": {
     "@angular/animations": "5.2.11",
@@ -33,8 +36,12 @@
   },
   "devDependencies": {
     "@ionic/app-scripts": "3.2.0",
+    "@ionic/lab": "1.0.8",
+    "expose-loader": "^0.7.5",
+    "phaser-ce": "^2.8.2",
     "phasor": "0.0.1",
-    "typescript": "~2.6.2"
+    "typescript": "~2.6.2",
+    "webpack-merge": "^4.1.4"
   },
   "description": "An Ionic project"
 }
